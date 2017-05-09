@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Lesson_3_Activity_Three
+{ 
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Hi there. What is your name?");
+      String name = reader.nextLine();
+      
+      System.out.println("What adjective describes you?");
+      String adjective = reader.nextLine();
+      
+      System.out.println("My name is " + name + ". I am " + adjective + ".");
+
+    }
+}
