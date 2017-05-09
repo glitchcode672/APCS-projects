@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Lesson_3_Activity_Two
+{ 
+    public static void main(String[] args) 
+    {
+     
+      Scanner reader = new Scanner(System.in);
+      
+      String name1 = reader.nextLine();
+      String name2 = reader.nextLine();
+      String name3 = reader.nextLine();
+      
+      System.out.print(name3 + " " + name2 + " " + name1);
+
+    }
+}
