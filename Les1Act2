@@ -1,0 +1,9 @@
+class Lesson_1_Activity_Two 
+{
+    public static void main(String[] args) 
+    {
+      
+        System.out.println("\t*insert_name*\t\n\t*insert_name*\t\n\t*insert_name*\t");
+
+    }
+}
