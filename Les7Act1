@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Lesson_7_Activity_One
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Please enter a three digit number:");
+      int num = reader.nextInt();
+      System.out.println();
+
+      System.out.println("Here are the digits:\n" + (num/100)%10 + "\n" + (num/10)%10 + "\n" + num%10);
+    }
+}
