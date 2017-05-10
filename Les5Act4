@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Lesson_5_Activity_Four
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Enter a price:");
+      double price = reader.nextDouble();
+      
+      System.out.println("Change from $20: $" + (20-price));
+    }
+}
