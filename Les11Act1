@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Lesson_11_Activity_One
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      int num = reader.nextInt();
+      
+      if(num == 176)
+        System.out.print("YES");
+    }
+}
