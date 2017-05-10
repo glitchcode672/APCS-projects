@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Lesson_13_Activity_Three
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      int one = reader.nextInt();
+      int two = reader.nextInt();
+      
+      if(one > two)
+        System.out.println(one);
+      else if (two > one)
+        System.out.println(two);
+      else
+        System.out.println("EQUAL");
+    }
+}
