@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Lesson_11_Activity_Two
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      double num = reader.nextDouble();
+      
+      if(num == 48.729)
+        System.out.print("YES");
+      
+    }
+}
