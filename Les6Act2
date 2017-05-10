@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Lesson_6_Activity_Two
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Please input a decimal number:");
+      double num = reader.nextDouble();
+      
+      System.out.println("Answer: " + (int)num);
+    }
+}
