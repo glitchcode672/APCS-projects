@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Lesson_10_Activity
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Please enter two decimal values:");
+      double doubleOne = reader.nextDouble();
+      double doubleTwo = reader.nextDouble();
+      
+      int intOne = (int)(doubleOne*1000);
+      int intTwo = (int)(doubleTwo*1000);
+
+      System.out.println("\nThe difference is: " + (intOne-intTwo)/1000.0);
+    }
+}
