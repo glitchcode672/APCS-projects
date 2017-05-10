@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+class Lesson_13_Activity_Four
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      int num = reader.nextInt();
+      
+      if(num == 0)
+        System.out.println("F");
+      else if (num == 1)
+        System.out.println("D");
+      else if (num == 2)
+        System.out.println("C");
+      else if (num == 3)
+        System.out.println("B");
+      else
+        System.out.println("A");
+    }
+}
