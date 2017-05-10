@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Lesson_7_Activity_Two
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Please enter a three digit number:");
+      int num = reader.nextInt();
+      System.out.println();
+      
+      int one = (num/100)%10;
+      int two = (num/10)%10;
+      int three = num%10;
+
+      System.out.println("Here are the digits:\n" + one + "\n" + two + "\n" + three);
+      
+      System.out.println("\n" + one + " + " + two + " + " + three + " = " + (one+two+three)); 
+      
+    }
+}
