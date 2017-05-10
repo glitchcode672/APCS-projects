@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Lesson_12_Activity_One
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      int one = reader.nextInt();
+      int two = reader.nextInt();
+      int three = reader.nextInt();
+      
+      if((one+two+three)/3.0 >= 89.5)
+        System.out.print("ABOVE AVERAGE");
+    }
+}
