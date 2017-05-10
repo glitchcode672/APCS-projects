@@ -1,0 +1,42 @@
+import java.util.Scanner;
+class Lesson_14_Activity_Three
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      System.out.println("Please enter the first octet:");
+      int first = reader.nextInt();
+      System.out.println("Please enter the second octet:");
+      int second = reader.nextInt();
+      System.out.println("Please enter the third octet:");
+      int third = reader.nextInt();
+      System.out.println("Please enter the fourth octet:");
+      int fourth = reader.nextInt();
+      
+      int count = 0;
+      
+      if(first < 0 || first > 255)
+      {
+        System.out.println("Octet 1 is incorrect");
+        count++;
+      }
+      if (second < 0 || second > 255)
+      {
+        System.out.println("Octet 2 is incorrect");
+        count++;
+      }
+      if (third < 0 || third > 255)
+      {
+        System.out.println("Octet 3 is incorrect");
+        count++;
+      }
+      if (fourth < 0 || fourth > 255)
+      {
+        System.out.println("Octet 4 is incorrect");
+        count++;
+      }
+      if (count == 0)
+        System.out.println("IP Address: " + first + "." + second + "." + third + "." + fourth);
+    }
+}
