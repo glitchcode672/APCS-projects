@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Lesson_6_Activity_One
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      
+      int one = reader.nextInt();
+      int two = reader.nextInt();
+      
+      System.out.println(((double)(one + two))/2);
+    }
+}
