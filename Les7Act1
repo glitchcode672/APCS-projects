@@ -12,3 +12,4 @@ class Lesson_7_Activity_One
       System.out.println("Here are the digits:\n" + (num/100)%10 + "\n" + (num/10)%10 + "\n" + num%10);
     }
 }
+ 
