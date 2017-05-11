@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+class Lesson_17_Activity_Two
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      int count = 0, one, two;
+      
+      System.out.println("Enter two numbers:");
+      one = reader.nextInt();
+      two = reader.nextInt();
+      
+      do{
+        if((one+count)%2 == 0)
+          System.out.print(one+count + " ");
+        count++;
+        }while(one+count <= two);
+    }
+}
