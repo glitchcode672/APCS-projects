@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.lang.Math; 
+
+class Lesson_29_Activity_Two {
+  
+    public static String [] list = {"every", "nearing", "checking", "food", "stand", "value"};
+    
+    public static void main(String[] args)
+     {
+      for(int i = 0; i < list.length; i++)
+      {
+        for(int j = list[i].length()-1; j>=0; j--)
+        {
+          System.out.print(list[i].charAt(j));
+        }
+        System.out.println();
+      }
+    }
+}
