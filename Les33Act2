@@ -1,0 +1,13 @@
+class Lesson_33_Activity_Two {
+    public static void main(String[] args)
+     {
+     
+    }
+    public static void randomize(int [] ints)
+    {
+      for(int i = 0; i < ints.length; i++)
+      {
+        ints[i] = (int)(Math.random()*90 +10);
+      }
+    }
+}
