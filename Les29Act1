@@ -1,0 +1,19 @@
+class Lesson_29_Activity_One 
+{
+  public static String [] list = {};
+  
+  public static void main(String[] args) 
+  {
+
+    String longestWord = list[0];
+
+    for (int i = 0; i < list.length ; i++)
+    {
+      if (longestWord.length() < list[i].length())
+        longestWord = list[i];
+    }
+
+    System.out.println (longestWord);
+
+  }
+}
