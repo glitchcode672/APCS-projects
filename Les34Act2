@@ -1,0 +1,14 @@
+
+class Lesson_34_Activity_Two 
+{
+    public static double average(int [] a)
+      {
+      double av = 0;
+      for(int i = 0; i < a.length; i++)
+      {
+        av += + a[i];
+      }
+      av = av/(a.length);
+     return av; 
+    }
+}
