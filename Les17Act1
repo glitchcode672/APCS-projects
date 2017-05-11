@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+class Lesson_17_Activity_One
+{
+    public static void main(String[] args) 
+    {
+      Scanner reader = new Scanner(System.in);
+      int count = 0, score = 0; 
+      double average = 0;
+      
+      System.out.println("Enter the Scores:");
+      
+      do{
+        score = reader.nextInt();
+        if (score != -1)
+        {
+          average += score;
+          count++;
+        }
+      }while(score != -1);
+      
+      System.out.print("\nThe average is: " +average/count);
+    }
+}
