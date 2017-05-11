@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Lesson_33_Activity_Five {
+  
+    public static void main(String[] args)
+    {
+    }
+    public static void insertValue(int[] intArray, int one, int two)
+    {
+      for(int i = intArray.length-1; i >= two+1; i--)
+      {
+        intArray[i] = intArray[i]-1;
+      }
+      intArray[two] = one;
+    }
+}
